@@ -1,0 +1,540 @@
+{
+  "device_type": "water_meter",
+  "prediction_time": "2024-11-03 20:29:29",
+  "summary": {
+    "total_devices": 133,
+    "warning_devices": 9,
+    "severe_fault_devices": 6,
+    "fault_devices": 11
+  },
+  "predictions": [
+    {
+      "device_id": "WM_006",
+      "timestamp": "2024-01-01 00:00:00",
+      "fault_probability": "84.85%",
+      "fault_types": [
+        "电源问题"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "flux": 24.61343425862031,
+        "pressure": 1.3600593650548516,
+        "voltage": 8.399999999999999,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:00:00",
+        "device_id": "WM_006"
+      }
+    },
+    {
+      "device_id": "WM_008",
+      "timestamp": "2024-01-01 00:05:00",
+      "fault_probability": "84.33%",
+      "fault_types": [
+        "电源问题"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "flux": 147.68060555172187,
+        "pressure": 1.3600593650548516,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:05:00",
+        "device_id": "WM_008"
+      }
+    },
+    {
+      "device_id": "WM_000",
+      "timestamp": "2024-01-01 00:00:00",
+      "fault_probability": "82.64%",
+      "fault_types": [
+        "电源问题"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "flux": 164.0895617241354,
+        "pressure": 2.448106857098733,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:00:00",
+        "device_id": "WM_000"
+      }
+    },
+    {
+      "device_id": "WM_006",
+      "timestamp": "2024-01-01 00:30:00",
+      "fault_probability": "82.54%",
+      "fault_types": [
+        "传感器故障"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "flux": 8.20447808620677,
+        "pressure": 1.3600593650548516,
+        "voltage": 12.0,
+        "signal": -95.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:30:00",
+        "device_id": "WM_006"
+      }
+    },
+    {
+      "device_id": "WM_000",
+      "timestamp": "2024-01-01 00:25:00",
+      "fault_probability": "81.1%",
+      "fault_types": [
+        "电源问题"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "flux": 16.40895617241354,
+        "pressure": 1.3600593650548516,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:25:00",
+        "device_id": "WM_000"
+      }
+    },
+    {
+      "device_id": "WM_008",
+      "timestamp": "2024-01-01 00:35:00",
+      "fault_probability": "78.1%",
+      "fault_types": [
+        "电源问题"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "flux": 123.06717129310157,
+        "pressure": 1.904083111076792,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:35:00",
+        "device_id": "WM_008"
+      }
+    },
+    {
+      "device_id": "WM_004",
+      "timestamp": "2024-01-01 00:10:00",
+      "fault_probability": "66.57%",
+      "fault_types": [
+        "水质变化"
+      ],
+      "status": "故障",
+      "device_data": {
+        "flux": 114.86269320689476,
+        "pressure": 1.3600593650548516,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 61.60000000000001,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:10:00",
+        "device_id": "WM_004"
+      }
+    },
+    {
+      "device_id": "WM_001",
+      "timestamp": "2024-01-01 00:35:00",
+      "fault_probability": "64.58%",
+      "fault_types": [
+        "泄漏"
+      ],
+      "status": "故障",
+      "device_data": {
+        "flux": 24.61343425862031,
+        "pressure": 0.952041555538396,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:35:00",
+        "device_id": "WM_001"
+      }
+    },
+    {
+      "device_id": "WM_001",
+      "timestamp": "2024-01-01 00:10:00",
+      "fault_probability": "58.52%",
+      "fault_types": [
+        "电源问题"
+      ],
+      "status": "故障",
+      "device_data": {
+        "flux": 32.81791234482708,
+        "pressure": 1.0880474920438814,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:10:00",
+        "device_id": "WM_001"
+      }
+    },
+    {
+      "device_id": "WM_005",
+      "timestamp": "2024-01-01 00:05:00",
+      "fault_probability": "56.62%",
+      "fault_types": [
+        "电磁干扰"
+      ],
+      "status": "故障",
+      "device_data": {
+        "flux": 123.06717129310157,
+        "pressure": 1.3600593650548516,
+        "voltage": 12.0,
+        "signal": -98.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:05:00",
+        "device_id": "WM_005"
+      }
+    },
+    {
+      "device_id": "WM_007",
+      "timestamp": "2024-01-01 00:30:00",
+      "fault_probability": "54.57%",
+      "fault_types": [
+        "系统泄漏"
+      ],
+      "status": "故障",
+      "device_data": {
+        "flux": 131.27164937930831,
+        "pressure": 0.8160356190329109,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:30:00",
+        "device_id": "WM_007"
+      }
+    },
+    {
+      "device_id": "WM_002",
+      "timestamp": "2024-01-01 00:35:00",
+      "fault_probability": "53.81%",
+      "fault_types": [
+        "电源问题"
+      ],
+      "status": "故障",
+      "device_data": {
+        "flux": 16.40895617241354,
+        "pressure": 1.6320712380658218,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:35:00",
+        "device_id": "WM_002"
+      }
+    },
+    {
+      "device_id": "WM_004",
+      "timestamp": "2024-01-01 00:25:00",
+      "fault_probability": "53.54%",
+      "fault_types": [
+        "电源问题"
+      ],
+      "status": "故障",
+      "device_data": {
+        "flux": 164.0895617241354,
+        "pressure": 2.448106857098733,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:25:00",
+        "device_id": "WM_004"
+      }
+    },
+    {
+      "device_id": "WM_003",
+      "timestamp": "2024-01-01 00:15:00",
+      "fault_probability": "53.42%",
+      "fault_types": [
+        "电源问题"
+      ],
+      "status": "故障",
+      "device_data": {
+        "flux": 24.61343425862031,
+        "pressure": 1.768077174571307,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:15:00",
+        "device_id": "WM_003"
+      }
+    },
+    {
+      "device_id": "WM_005",
+      "timestamp": "2024-01-01 00:10:00",
+      "fault_probability": "52.97%",
+      "fault_types": [
+        "电源问题"
+      ],
+      "status": "故障",
+      "device_data": {
+        "flux": 16.40895617241354,
+        "pressure": 1.6320712380658218,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:10:00",
+        "device_id": "WM_005"
+      }
+    },
+    {
+      "device_id": "WM_007",
+      "timestamp": "2024-01-01 00:45:00",
+      "fault_probability": "52.92%",
+      "fault_types": [
+        "电源问题"
+      ],
+      "status": "故障",
+      "device_data": {
+        "flux": 16.40895617241354,
+        "pressure": 1.3600593650548516,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:45:00",
+        "device_id": "WM_007"
+      }
+    },
+    {
+      "device_id": "WM_002",
+      "timestamp": "2024-01-01 00:35:00",
+      "fault_probability": "51.72%",
+      "fault_types": [
+        "电源问题"
+      ],
+      "status": "故障",
+      "device_data": {
+        "flux": 24.61343425862031,
+        "pressure": 0.952041555538396,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:35:00",
+        "device_id": "WM_002"
+      }
+    },
+    {
+      "device_id": "WM_004",
+      "timestamp": "2024-01-01 00:30:00",
+      "fault_probability": "43.89%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "flux": 114.86269320689476,
+        "pressure": 2.992130603120674,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:30:00",
+        "device_id": "WM_004"
+      }
+    },
+    {
+      "device_id": "WM_008",
+      "timestamp": "2024-01-01 00:40:00",
+      "fault_probability": "37.21%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "flux": 353.4767410153792,
+        "pressure": 1.8463924589738547,
+        "voltage": 19.660178102432383,
+        "signal": -61.0,
+        "ph": 5.734218613209446,
+        "turb": 1.638348175202699,
+        "ozone": 0.0409587043800674,
+        "caliber": 100.0,
+        "timestamp": "2024-01-01 00:40:00",
+        "device_id": "WM_008"
+      }
+    },
+    {
+      "device_id": "WM_004",
+      "timestamp": "2024-01-01 00:20:00",
+      "fault_probability": "37.15%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "flux": 106.658215120688,
+        "pressure": 2.448106857098733,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:20:00",
+        "device_id": "WM_004"
+      }
+    },
+    {
+      "device_id": "WM_000",
+      "timestamp": "2024-01-01 00:05:00",
+      "fault_probability": "35.59%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "flux": 888.6291995431526,
+        "pressure": 1.626646723474192,
+        "voltage": 21.49960570964636,
+        "signal": -67.0,
+        "ph": 6.270718331980188,
+        "turb": 1.7916338091371964,
+        "ozone": 0.0447908452284299,
+        "caliber": 100.0,
+        "timestamp": "2024-01-01 00:05:00",
+        "device_id": "WM_000"
+      }
+    },
+    {
+      "device_id": "WM_000",
+      "timestamp": "2024-01-01 00:40:00",
+      "fault_probability": "35.44%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "flux": 872.1298836783109,
+        "pressure": 1.5964445220330188,
+        "voltage": 21.100419203333736,
+        "signal": -65.0,
+        "ph": 6.154288934305673,
+        "turb": 1.758368266944478,
+        "ozone": 0.0439592066736119,
+        "caliber": 100.0,
+        "timestamp": "2024-01-01 00:40:00",
+        "device_id": "WM_000"
+      }
+    },
+    {
+      "device_id": "WM_002",
+      "timestamp": "2024-01-01 00:10:00",
+      "fault_probability": "31.29%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "flux": 24.61343425862031,
+        "pressure": 0.5440237460219407,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:10:00",
+        "device_id": "WM_002"
+      }
+    },
+    {
+      "device_id": "WM_002",
+      "timestamp": "2024-01-01 00:30:00",
+      "fault_probability": "30.99%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "flux": 8.20447808620677,
+        "pressure": 0.2720118730109703,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:30:00",
+        "device_id": "WM_002"
+      }
+    },
+    {
+      "device_id": "WM_000",
+      "timestamp": "2024-01-01 00:00:00",
+      "fault_probability": "30.69%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "flux": 99.19763681743572,
+        "pressure": 3.631649983782215,
+        "voltage": 24.67411741670213,
+        "signal": -77.10661692719415,
+        "ph": 7.196617579871455,
+        "turb": 2.056176451391844,
+        "ozone": 0.0514044112847961,
+        "caliber": 102.8088225695922,
+        "timestamp": "2024-01-01 00:00:00",
+        "device_id": "WM_000"
+      }
+    },
+    {
+      "device_id": "WM_006",
+      "timestamp": "2024-01-01 00:00:00",
+      "fault_probability": "30.29%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "flux": 147.68060555172187,
+        "pressure": 1.3600593650548516,
+        "voltage": 12.0,
+        "signal": -75.0,
+        "ph": 7.0,
+        "turb": 2.0,
+        "ozone": 0.05,
+        "caliber": 50.0,
+        "timestamp": "2024-01-01 00:00:00",
+        "device_id": "WM_006"
+      }
+    }
+  ]
+}

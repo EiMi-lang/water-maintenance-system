@@ -1,0 +1,982 @@
+{
+  "device_type": "water_pump",
+  "prediction_time": "2024-11-03 20:29:32",
+  "summary": {
+    "total_devices": 125,
+    "warning_devices": 35,
+    "severe_fault_devices": 11,
+    "fault_devices": 6
+  },
+  "predictions": [
+    {
+      "device_id": "PM_008",
+      "timestamp": "2024-01-01 00:00:00",
+      "fault_probability": "96.17%",
+      "fault_types": [
+        "过热损坏"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:00:00",
+        "device_id": "PM_008",
+        "temp": 65.0,
+        "shake": 1109.0436025087404,
+        "humidity": 75.91888937529049,
+        "flux": 658.0287082739603,
+        "power": 1271.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_005",
+      "timestamp": "2024-01-01 00:10:00",
+      "fault_probability": "95.54%",
+      "fault_types": [
+        "过载"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:10:00",
+        "device_id": "PM_005",
+        "temp": 38.66959450973916,
+        "shake": 1109.0436025087404,
+        "humidity": 75.91888937529049,
+        "flux": 1184.4516748931287,
+        "power": 1452.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_000",
+      "timestamp": "2024-01-01 00:35:00",
+      "fault_probability": "95.18%",
+      "fault_types": [
+        "不平衡"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:35:00",
+        "device_id": "PM_000",
+        "temp": 38.66959450973916,
+        "shake": 2218.0872050174808,
+        "humidity": 75.91888937529049,
+        "flux": 658.0287082739603,
+        "power": 908.0,
+        "noise": 110.58914834635024,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_003",
+      "timestamp": "2024-01-01 00:25:00",
+      "fault_probability": "95.12%",
+      "fault_types": [
+        "过热损坏"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:25:00",
+        "device_id": "PM_003",
+        "temp": 65.0,
+        "shake": 1109.0436025087404,
+        "humidity": 75.91888937529049,
+        "flux": 658.0287082739603,
+        "power": 1271.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_000",
+      "timestamp": "2024-01-01 00:20:00",
+      "fault_probability": "93.4%",
+      "fault_types": [
+        "过载"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:20:00",
+        "device_id": "PM_000",
+        "temp": 38.66959450973916,
+        "shake": 1109.0436025087404,
+        "humidity": 75.91888937529049,
+        "flux": 197.4086124821881,
+        "power": 1180.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_003",
+      "timestamp": "2024-01-01 00:05:00",
+      "fault_probability": "92.94%",
+      "fault_types": [
+        "电机故障_低温"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:05:00",
+        "device_id": "PM_003",
+        "temp": -15.0,
+        "shake": 1109.0436025087404,
+        "humidity": 75.91888937529049,
+        "flux": 658.0287082739603,
+        "power": 1180.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_006",
+      "timestamp": "2024-01-01 00:15:00",
+      "fault_probability": "92.45%",
+      "fault_types": [
+        "过载"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:15:00",
+        "device_id": "PM_006",
+        "temp": 38.66959450973916,
+        "shake": 1109.0436025087404,
+        "humidity": 68.32700043776144,
+        "flux": 658.0287082739603,
+        "power": 1089.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_005",
+      "timestamp": "2024-01-01 00:40:00",
+      "fault_probability": "92.18%",
+      "fault_types": [
+        "流体粘度增加"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:40:00",
+        "device_id": "PM_005",
+        "temp": -12.0,
+        "shake": 1109.0436025087404,
+        "humidity": 75.91888937529049,
+        "flux": 460.6200957917722,
+        "power": 908.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_006",
+      "timestamp": "2024-01-01 00:40:00",
+      "fault_probability": "91.98%",
+      "fault_types": [
+        "密封材料老化"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:40:00",
+        "device_id": "PM_006",
+        "temp": 38.66959450973916,
+        "shake": 1109.0436025087404,
+        "humidity": 7.591888937529049,
+        "flux": 658.0287082739603,
+        "power": 998.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_002",
+      "timestamp": "2024-01-01 00:30:00",
+      "fault_probability": "91.92%",
+      "fault_types": [
+        "过热损坏"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:30:00",
+        "device_id": "PM_002",
+        "temp": 70.0,
+        "shake": 1109.0436025087404,
+        "humidity": 75.91888937529049,
+        "flux": 526.4229666191683,
+        "power": 908.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_008",
+      "timestamp": "2024-01-01 00:35:00",
+      "fault_probability": "91.08%",
+      "fault_types": [
+        "润滑不足"
+      ],
+      "status": "严重故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:35:00",
+        "device_id": "PM_008",
+        "temp": -5.0,
+        "shake": 1109.0436025087404,
+        "humidity": 68.32700043776144,
+        "flux": 658.0287082739603,
+        "power": 908.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_007",
+      "timestamp": "2024-01-01 00:00:00",
+      "fault_probability": "58.83%",
+      "fault_types": [
+        "共振现象"
+      ],
+      "status": "故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:00:00",
+        "device_id": "PM_007",
+        "temp": 38.66959450973916,
+        "shake": 2439.895925519229,
+        "humidity": 75.91888937529049,
+        "flux": 658.0287082739603,
+        "power": 908.0,
+        "noise": 124.412791889644,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_007",
+      "timestamp": "2024-01-01 00:25:00",
+      "fault_probability": "56.9%",
+      "fault_types": [
+        "过载"
+      ],
+      "status": "故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:25:00",
+        "device_id": "PM_007",
+        "temp": 38.66959450973916,
+        "shake": 1109.0436025087404,
+        "humidity": 75.91888937529049,
+        "flux": 1184.4516748931287,
+        "power": 1452.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_009",
+      "timestamp": "2024-01-01 00:00:00",
+      "fault_probability": "55.9%",
+      "fault_types": [
+        "密封失效"
+      ],
+      "status": "故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:00:00",
+        "device_id": "PM_009",
+        "temp": 90.0,
+        "shake": 1027.986171784196,
+        "humidity": 70.37015341729784,
+        "flux": 609.9349125791625,
+        "power": 1362.0,
+        "noise": 64.06652711414878,
+        "caliber": 92.69123138700893
+      }
+    },
+    {
+      "device_id": "PM_004",
+      "timestamp": "2024-01-01 00:20:00",
+      "fault_probability": "55.76%",
+      "fault_types": [
+        "不平衡"
+      ],
+      "status": "故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:20:00",
+        "device_id": "PM_004",
+        "temp": 38.66959450973916,
+        "shake": 1996.2784845157328,
+        "humidity": 75.91888937529049,
+        "flux": 658.0287082739603,
+        "power": 908.0,
+        "noise": 96.76550480305644,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_004",
+      "timestamp": "2024-01-01 00:25:00",
+      "fault_probability": "52.86%",
+      "fault_types": [
+        "过载"
+      ],
+      "status": "故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:25:00",
+        "device_id": "PM_004",
+        "temp": 38.66959450973916,
+        "shake": 1109.0436025087404,
+        "humidity": 68.32700043776144,
+        "flux": 658.0287082739603,
+        "power": 1089.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_009",
+      "timestamp": "2024-01-01 00:40:00",
+      "fault_probability": "52.33%",
+      "fault_types": [
+        "气蚀现象"
+      ],
+      "status": "故障",
+      "device_data": {
+        "timestamp": "2024-01-01 00:40:00",
+        "device_id": "PM_009",
+        "temp": 85.0,
+        "shake": 1109.0436025087404,
+        "humidity": 75.91888937529049,
+        "flux": 658.0287082739603,
+        "power": 908.0,
+        "noise": 117.50097011799711,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_000",
+      "timestamp": "2024-01-01 00:30:00",
+      "fault_probability": "49.51%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:30:00",
+        "device_id": "PM_000",
+        "temp": 38.66959450973916,
+        "shake": 1109.0436025087404,
+        "humidity": 75.91888937529049,
+        "flux": 197.4086124821881,
+        "power": 1180.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_001",
+      "timestamp": "2024-01-01 00:15:00",
+      "fault_probability": "49.13%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:15:00",
+        "device_id": "PM_001",
+        "temp": 85.0,
+        "shake": 1109.0436025087404,
+        "humidity": 75.91888937529049,
+        "flux": 658.0287082739603,
+        "power": 908.0,
+        "noise": 117.50097011799711,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_001",
+      "timestamp": "2024-01-01 00:15:00",
+      "fault_probability": "47.22%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:15:00",
+        "device_id": "PM_001",
+        "temp": 38.66959450973916,
+        "shake": 2439.895925519229,
+        "humidity": 75.91888937529049,
+        "flux": 658.0287082739603,
+        "power": 908.0,
+        "noise": 124.412791889644,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_003",
+      "timestamp": "2024-01-01 00:05:00",
+      "fault_probability": "47.09%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:05:00",
+        "device_id": "PM_003",
+        "temp": 38.66959450973916,
+        "shake": 1996.2784845157328,
+        "humidity": 75.91888937529049,
+        "flux": 658.0287082739603,
+        "power": 908.0,
+        "noise": 96.76550480305644,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_007",
+      "timestamp": "2024-01-01 00:35:00",
+      "fault_probability": "43.74%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:35:00",
+        "device_id": "PM_007",
+        "temp": -8.0,
+        "shake": 1647.962437064407,
+        "humidity": 75.94060724160732,
+        "flux": 1939.8651048078293,
+        "power": 983.0,
+        "noise": 72.10561870779807,
+        "caliber": 104.76797745751978
+      }
+    },
+    {
+      "device_id": "PM_009",
+      "timestamp": "2024-01-01 00:05:00",
+      "fault_probability": "43.62%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:05:00",
+        "device_id": "PM_009",
+        "temp": 36.10947306661998,
+        "shake": 1035.6193438855555,
+        "humidity": 70.89267746146957,
+        "flux": 614.4639016707802,
+        "power": 847.0,
+        "noise": 64.54224443488854,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_001",
+      "timestamp": "2024-01-01 00:30:00",
+      "fault_probability": "43.37%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:30:00",
+        "device_id": "PM_001",
+        "temp": 90.0,
+        "shake": 756.4195476590023,
+        "humidity": 57.30031758394213,
+        "flux": 582.655639232231,
+        "power": 1119.0,
+        "noise": 72.23251735844724,
+        "caliber": 88.45457287288812
+      }
+    },
+    {
+      "device_id": "PM_001",
+      "timestamp": "2024-01-01 00:20:00",
+      "fault_probability": "42.86%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:20:00",
+        "device_id": "PM_001",
+        "temp": 75.0,
+        "shake": 1774.4697640139848,
+        "humidity": 75.91888937529049,
+        "flux": 658.0287082739603,
+        "power": 908.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_001",
+      "timestamp": "2024-01-01 00:20:00",
+      "fault_probability": "42.45%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:20:00",
+        "device_id": "PM_001",
+        "temp": -15.0,
+        "shake": 1109.0436025087404,
+        "humidity": 75.91888937529049,
+        "flux": 658.0287082739603,
+        "power": 1180.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_009",
+      "timestamp": "2024-01-01 00:40:00",
+      "fault_probability": "42.37%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:40:00",
+        "device_id": "PM_009",
+        "temp": 39.81184035636248,
+        "shake": 1141.8032025187872,
+        "humidity": 78.16142739950845,
+        "flux": 677.4659578369349,
+        "power": 934.0,
+        "noise": 71.15987339229342,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_007",
+      "timestamp": "2024-01-01 00:45:00",
+      "fault_probability": "41.9%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:45:00",
+        "device_id": "PM_007",
+        "temp": 5.138774864035362,
+        "shake": 1109.263301068244,
+        "humidity": 73.1853410978181,
+        "flux": 1869.483199251157,
+        "power": 948.0,
+        "noise": 69.48949306410265,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_009",
+      "timestamp": "2024-01-01 00:35:00",
+      "fault_probability": "41.73%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:35:00",
+        "device_id": "PM_009",
+        "temp": 37.34319242125062,
+        "shake": 1071.002403234671,
+        "humidity": 73.3148027615104,
+        "flux": 1118.6488040657323,
+        "power": 876.0,
+        "noise": 66.74740029533871,
+        "caliber": 96.5699094978757
+      }
+    },
+    {
+      "device_id": "PM_007",
+      "timestamp": "2024-01-01 00:40:00",
+      "fault_probability": "41.11%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:40:00",
+        "device_id": "PM_007",
+        "temp": 4.850099350931362,
+        "shake": 1046.9493914154962,
+        "humidity": 69.07408570094059,
+        "flux": 1764.4632215206398,
+        "power": 894.0,
+        "noise": 65.58585540797384,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_001",
+      "timestamp": "2024-01-01 00:05:00",
+      "fault_probability": "40.84%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:05:00",
+        "device_id": "PM_001",
+        "temp": 80.0,
+        "shake": 1539.2705448284737,
+        "humidity": 63.569555446533776,
+        "flux": 646.4040955819896,
+        "power": 732.0,
+        "noise": 80.13548983448096,
+        "caliber": 98.13240330657996
+      }
+    },
+    {
+      "device_id": "PM_007",
+      "timestamp": "2024-01-01 00:05:00",
+      "fault_probability": "40.09%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:05:00",
+        "device_id": "PM_007",
+        "temp": 5.381012246788417,
+        "shake": 1161.5530094023,
+        "humidity": 76.63523449702095,
+        "flux": 1957.6090131405376,
+        "power": 992.0,
+        "noise": 72.76516739778347,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_008",
+      "timestamp": "2024-01-01 00:40:00",
+      "fault_probability": "39.86%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:40:00",
+        "device_id": "PM_008",
+        "temp": 75.0,
+        "shake": 1774.4697640139848,
+        "humidity": 75.91888937529049,
+        "flux": 658.0287082739603,
+        "power": 908.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_009",
+      "timestamp": "2024-01-01 00:35:00",
+      "fault_probability": "38.85%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:35:00",
+        "device_id": "PM_009",
+        "temp": 38.66959450973916,
+        "shake": 1109.0436025087404,
+        "humidity": 72.12294490652596,
+        "flux": 658.0287082739603,
+        "power": 635.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_009",
+      "timestamp": "2024-01-01 00:45:00",
+      "fault_probability": "38.45%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:45:00",
+        "device_id": "PM_009",
+        "temp": 38.75042704485274,
+        "shake": 1111.3618788464894,
+        "humidity": 11.387833406293574,
+        "flux": 592.2258374465644,
+        "power": 909.0,
+        "noise": 69.26269817537693,
+        "caliber": 100.20903383171816
+      }
+    },
+    {
+      "device_id": "PM_001",
+      "timestamp": "2024-01-01 00:35:00",
+      "fault_probability": "38.43%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:35:00",
+        "device_id": "PM_001",
+        "temp": -3.771555704342473,
+        "shake": 760.9943987479905,
+        "humidity": 57.64687184884652,
+        "flux": 586.1795603073754,
+        "power": 663.0,
+        "noise": 72.66938207422614,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_007",
+      "timestamp": "2024-01-01 00:15:00",
+      "fault_probability": "37.4%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:15:00",
+        "device_id": "PM_007",
+        "temp": 5.286831845110282,
+        "shake": 1141.223093026204,
+        "humidity": 75.29393720264379,
+        "flux": 1923.3462397568956,
+        "power": 975.0,
+        "noise": 71.49160540249342,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_004",
+      "timestamp": "2024-01-01 00:20:00",
+      "fault_probability": "37.06%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:20:00",
+        "device_id": "PM_004",
+        "temp": 16.7391885785832,
+        "shake": 143.8875142246821,
+        "humidity": 84.27654234287901,
+        "flux": 1931.8855897494864,
+        "power": 566.0,
+        "noise": 81.64953118010042,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_009",
+      "timestamp": "2024-01-01 00:10:00",
+      "fault_probability": "36.8%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:10:00",
+        "device_id": "PM_009",
+        "temp": 40.05493140033814,
+        "shake": 1148.7750513464362,
+        "humidity": 78.63868097068475,
+        "flux": 681.6025640695136,
+        "power": 940.0,
+        "noise": 71.59437548406484,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_009",
+      "timestamp": "2024-01-01 00:40:00",
+      "fault_probability": "36.71%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:40:00",
+        "device_id": "PM_009",
+        "temp": -12.0,
+        "shake": 1109.0436025087404,
+        "humidity": 75.91888937529049,
+        "flux": 460.6200957917722,
+        "power": 908.0,
+        "noise": 69.11821771646889,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_001",
+      "timestamp": "2024-01-01 00:40:00",
+      "fault_probability": "36.48%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:40:00",
+        "device_id": "PM_001",
+        "temp": -4.290465486812819,
+        "shake": 865.6958717928692,
+        "humidity": 65.5782211582944,
+        "flux": 666.829120322476,
+        "power": 755.0,
+        "noise": 82.66760461167246,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_004",
+      "timestamp": "2024-01-01 00:00:00",
+      "fault_probability": "34.91%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:00:00",
+        "device_id": "PM_004",
+        "temp": 15.919238556834518,
+        "shake": 136.83934878559737,
+        "humidity": 80.14835223363083,
+        "flux": 1837.2543820362432,
+        "power": 538.0,
+        "noise": 77.65002221031979,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_007",
+      "timestamp": "2024-01-01 00:30:00",
+      "fault_probability": "33.94%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:30:00",
+        "device_id": "PM_007",
+        "temp": 5.223999513673617,
+        "shake": 1127.6600159840395,
+        "humidity": 74.3990924721719,
+        "flux": 1900.487875438832,
+        "power": 963.0,
+        "noise": 70.64195018795442,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_007",
+      "timestamp": "2024-01-01 00:10:00",
+      "fault_probability": "33.51%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:10:00",
+        "device_id": "PM_007",
+        "temp": 4.719753555806181,
+        "shake": 1018.8127614197266,
+        "humidity": 67.2177285478639,
+        "flux": 1717.0434997918298,
+        "power": 870.0,
+        "noise": 63.823243994565175,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_007",
+      "timestamp": "2024-01-01 00:20:00",
+      "fault_probability": "32.63%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:20:00",
+        "device_id": "PM_007",
+        "temp": 5.024924994522748,
+        "shake": 1084.687505197985,
+        "humidity": 71.56391541666271,
+        "flux": 1828.064685320848,
+        "power": 927.0,
+        "noise": 67.94994912081474,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_004",
+      "timestamp": "2024-01-01 00:40:00",
+      "fault_probability": "32.31%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:40:00",
+        "device_id": "PM_004",
+        "temp": 15.50767074668681,
+        "shake": 133.30157460621942,
+        "humidity": 78.07623793633105,
+        "flux": 1789.754951708635,
+        "power": 524.0,
+        "noise": 75.64249845314224,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_001",
+      "timestamp": "2024-01-01 00:10:00",
+      "fault_probability": "32.29%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:10:00",
+        "device_id": "PM_001",
+        "temp": -4.444781658007501,
+        "shake": 896.8325567900387,
+        "humidity": 67.93688830851626,
+        "flux": 690.8131185635908,
+        "power": 782.0,
+        "noise": 85.64092959580739,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_004",
+      "timestamp": "2024-01-01 00:35:00",
+      "fault_probability": "32.24%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:35:00",
+        "device_id": "PM_004",
+        "temp": 15.542982648028875,
+        "shake": 133.6051103291611,
+        "humidity": 78.2540222378037,
+        "flux": 1793.8303316488953,
+        "power": 525.0,
+        "noise": 75.81474098306668,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_004",
+      "timestamp": "2024-01-01 00:45:00",
+      "fault_probability": "31.99%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:45:00",
+        "device_id": "PM_004",
+        "temp": 15.293472395835655,
+        "shake": 131.46035822286188,
+        "humidity": 76.99781670339397,
+        "flux": 1765.0341173972938,
+        "power": 517.0,
+        "noise": 74.59769303474079,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_007",
+      "timestamp": "2024-01-01 00:00:00",
+      "fault_probability": "31.22%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:00:00",
+        "device_id": "PM_007",
+        "temp": 4.804089862211748,
+        "shake": 1037.0177172931735,
+        "humidity": 68.4188283264159,
+        "flux": 1747.72499724671,
+        "power": 886.0,
+        "noise": 64.963688426182,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_007",
+      "timestamp": "2024-01-01 00:25:00",
+      "fault_probability": "30.86%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:25:00",
+        "device_id": "PM_007",
+        "temp": 4.6979876108019365,
+        "shake": 1014.114333361464,
+        "humidity": 66.90774257813393,
+        "flux": 1709.1250621140005,
+        "power": 866.0,
+        "noise": 63.52891226678476,
+        "caliber": 100.0
+      }
+    },
+    {
+      "device_id": "PM_004",
+      "timestamp": "2024-01-01 00:25:00",
+      "fault_probability": "30.57%",
+      "fault_types": [],
+      "status": "警告",
+      "device_data": {
+        "timestamp": "2024-01-01 00:25:00",
+        "device_id": "PM_004",
+        "temp": 15.548986630527477,
+        "shake": 133.65671964780378,
+        "humidity": 78.28425039867862,
+        "flux": 1794.5232569490497,
+        "power": 526.0,
+        "noise": 75.84402689223265,
+        "caliber": 100.0
+      }
+    }
+  ]
+}
